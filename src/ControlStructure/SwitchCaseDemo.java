@@ -7,7 +7,7 @@ public class SwitchCaseDemo {
         int b = 5;
         int c;
 
-        String operation = "div";
+        String operation = "sub";
 
         switch (operation)
         {
