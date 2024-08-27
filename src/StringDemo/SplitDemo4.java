@@ -16,11 +16,5 @@ public class SplitDemo4 {
                System.out.println(stArr[i]);
         }
 
-
-
-
-
-
-
     }
 }
