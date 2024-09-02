@@ -10,13 +10,13 @@ public class Java4 {
 
         Java1 ob = new Java1();
 
-        ob.c = 'h';
+     //   ob.c = 'h';
 
 
 
         Java3 j3 = new Java3();
         j3.a = 10 ;
-        j3.c = 'd';
+ //     j3.c = 'd';
 
     }
 

@@ -12,6 +12,7 @@ class ClassChild  extends ClassBase
 {
     int a1;
     double d1;
+
     public static void main(String[] args) {
         ClassChild ob = new ClassChild();
         ob.a1 = 90;
