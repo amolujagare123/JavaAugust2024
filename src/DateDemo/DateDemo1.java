@@ -14,7 +14,9 @@ public class DateDemo1 {
 
         // how to convert Date in to String in my desired format
         SimpleDateFormat sd = new SimpleDateFormat("dd/MM/yyyy");
+
         String dateStr = sd.format(date);
+
         System.out.println(dateStr);
 
         SimpleDateFormat sd0 = new SimpleDateFormat("dd-MMMM-yyyy");

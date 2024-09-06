@@ -9,6 +9,8 @@ public class AreaCircle {
 
         area = pi * radius * radius;
 
-        System.out.println("area="+area);
+        //System.out.println("area="+area);
+
+        System.out.println(area);
     }
 }

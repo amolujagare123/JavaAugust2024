@@ -8,7 +8,7 @@ public class Java2 {
 
         Java1 ob = new Java1();
         ob.a = 89 ;
-        ob.d = 56.67;
+       // ob.d = 56.67;
         ob.c = 'h';
         ob.str = "Sam";
         ob.display();
