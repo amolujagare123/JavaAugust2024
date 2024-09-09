@@ -65,10 +65,10 @@ class Programmer  extends Employee
 
       //  p.display();
 
-        p.calculateSalary();
+        p.calculateSalary(); // native
 
         Employee e = new Programmer(); // upcasting
-        e.calculateSalary();
+        e.calculateSalary(); // parent
 
     }
 }
