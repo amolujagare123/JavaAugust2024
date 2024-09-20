@@ -15,11 +15,12 @@ public class ArrayListDemo1 {
         al.add(12);
         al.add(34.89);
         al.add('g');
+        al.add('g');
         al.add(true);
 
         System.out.println(al);
-        al.add("true thing");
-        al.add(56);
+       // al.add("true thing");
+      //  al.add(56);
 
     }
 }
