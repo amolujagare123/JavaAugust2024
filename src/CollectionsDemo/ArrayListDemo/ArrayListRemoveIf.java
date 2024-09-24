@@ -1,14 +1,13 @@
 package CollectionsDemo.ArrayListDemo;
 
 import java.util.ArrayList;
-import java.util.Collections;
 
-public class ArrayListDemo4 {
+public class ArrayListRemoveIf {
 
     public static void main(String[] args) {
 
         ArrayList<Integer> al = new ArrayList<>();
-        al.add(34);
+        al.add(37);
         al.add(14);
         al.add(33);
         al.add(32);
@@ -17,15 +16,14 @@ public class ArrayListDemo4 {
 
         System.out.println(al);
 
-        Collections.sort(al);
-        System.out.println(al);
+        // remove the odd numbers
 
-        Integer ii = 32;
-
-        al.remove(ii);
-      //  al.remove(new Integer(32));
+       al.removeIf(i -> i%2!=0);
+   //     al.removeIf(i -> !(i%2==0));
 
         System.out.println(al);
+
+
 
 
     }
